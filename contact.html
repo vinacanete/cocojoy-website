@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocojoy | Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+        <nav>    
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="products.html">Products</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p>
+            Got questions or just want to say hi? We'd love to hear from you! Whether you need help choosing the perfect treat or have a question about our eco-friendly toys, our team is here to help. Reach out, and let's keep those tails wagging!
+        </p>
+
+        <!-- Using an icon from the images folder -->
+        <img src="images/call-icon.png" width="30" alt="A phone icon"/>
+        <h4>Call us:</h4>
+        <p>1-800-COCOJOY</p><br>
+
+        <img src="images/email-icon.png" width="60" alt="A phone icon"/>
+
+        <h3>Send us a message!</h3>
+        <form>
+            <!-- Using a email type and trying out placeholder attribute -->
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="sample@website.com"><br><br>
+
+            <!-- Using a text type -->
+            <label for="message">Name:</label><br>
+            <input type="text" name="name" placeholder="John Doe"><br><br>
+
+            <!-- Using a drop down selector as demonstrated in class -->
+            <label for="reason">Reason for Contact:</label><br>
+            <select name="reason">
+                <option value="question">Question about my order</option>
+                <option value="feedback">Product Feedback</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <!-- Using a text area and tried adding max and minimum lines -->
+            <label for="message">Message:</label><br>
+            <textarea name="message" rows="4" cols="50" placeholder="Type here"></textarea><br><br>
+
+            <!-- Using a radio button and a checkbox -->
+            <label for="subscribe">Subscribe to our newsletter:</label><br>
+            <input type="radio" name="subscribe" value="yes">Yes
+            <input type="radio" name="subscribe" value="yes">No<br><br>
+            <input type="checkbox" name="terms" value="yes">I agree to the terms and conditions<br><br>
+
+            <!-- Using a submit button -->
+            <input type="submit" value="Submit">
+        </form><br><br>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2025 Cocojoy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
