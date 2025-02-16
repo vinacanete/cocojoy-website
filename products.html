@@ -3,83 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Cocojoy - Products</title>
 </head>
 <body>
     <header>
-        <h1>Products</h1>
+        <img src="images/cocojoy-logo-nav.png" alt="cocojoy logo horizontal" width="200">
         <nav>    
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
-        <a href="products.html">Products</a>
+        <a class="selected" href="products.html">Products</a>
         </nav>
     </header>
     <main> 
-        <!-- Using different heading tag for heirarchy -->
-        <h2>Our Products</h2>
-        <p>
-            At Cocojoy, we offer a range of premium treats and eco-friendly toys made from 100% coconut materials. Our products are designed to be healthy, sustainable, and tail-waggingly good. From chew toys to dental treats, we have everything your pup needs to stay happy and healthy.
-        </p>
-        <!-- Using an unordered list to list the products -->
-        <h3>Shop our collection:</h3>
-        <ul>
-            <li>Coconut Chew Toys</li>
-            <li>Coconut Rope Toys</li>
-            <li>Coconut Balls</li>
-            <li>Coconut Dental Sticks</li>
-            <li>Coconut Training Treats</li>
-        </ul>
-     
-        <h3>Our Product Comparison Table?</h3>
-        <p>
-            Here's a quick look at what makes each of our products unique:
-        </p>
-        <!-- Using a table for the product comparison -->
-        <table>
-            <tr>
-                <th>Product</th>
-                <th>Material</th>
-                <th>Benefits</th>
-            </tr>
-            <tr>
-                <td>Chew Toys</td>
-                <td>100% coconut husk</td>
-                <td>Durable, non-toxic, and great for teething</td>
-            </tr>
-            <tr>
-                <td>Rope Toys</td>
-                <td>Coconut fiber</td>
-                <td>Interactive, eco-friendly, and promotes dental health</td>
-            </tr>
-            <tr>
-                <td>Balls</td>
-                <td>Coconut shell</td>
-                <td>Chewable, natural, and supports mental stimulation</td>
-            </tr>
-            <tr>
-                <td>Dental Sticks</td>
-                <td>Coconut meat</td>
-                <td>Cleans teeth, freshens breath, and aids digestion</td>
-            </tr>
-            <tr>
-                <td>Training Treats</td>
-                <td>Coconut oil</td>
-                <td>Healthy, tasty, and perfect for positive reinforcement</td>
-            </tr>
-        </table>
-    
-        <h3>Images</h3>
-        <p>
-            When you choose Cocojoy, you are choosing quality, sustainability, and innovation. Our products are made with care and attention to detail, using only the best materials and ingredients. We are committed to providing safe, durable, and eco-friendly products that promote the health and well-being of pets. Join us in our mission to create a greener, healthier world for our furry friends!
-        </p>
-        <!-- Using images with src to a local folder or relative path to showcase the products -->
-        <img src="images/toy-1.jpg" width="300" alt="Product photo of puppy toy bundle"/>
-        <img src="images/toy-2.jpg" width="300" alt="Product photo of coconut ball toy"/>
-        <img src="images/toy-3.jpg" width="300" alt="Product photo of dental sticks with training treats"/>
-        <h4>Give your pup the joy of coconut today! 🐾</h4>
+        <section class="gray-background">
+            <div class="hero-copy">
+                <h2>Our Products</h2>
+                <p>
+                    At Cocojoy, we offer a range of premium treats and eco-friendly toys made from 100% coconut materials. Our products are designed to be healthy, sustainable, and tail-waggingly good. From chew toys to dental treats, we have everything your pup needs to stay happy and healthy.
+                </p>  
+            </div>  
+            <div class="hero-image">
+                <img src="images/Products-hero.png" alt="A photo of a maltese dog chewing on a rope toy"/>
+            </div>          
+        </section>
+
+        <section class="green-background column">
+            <h2>Shop our collection</h2>
+            <!-- Created an ID for this section to show a grid of the product collection -->
+            <div id="collection-grid">
+                <div>
+                    <img src="images/product-1.png" width="150" alt="Product photo chew toy"/>
+                    <h4>Chew Toys</h4>
+                </div>
+                <div>
+                    <img src="images/product-2.png" width="150" alt="Product photo rope toy"/>
+                    <h4>Rope Toys</h4>
+                </div>
+                <div>
+                    <img src="images/product-3.png" width="150" alt="Product photo husk ball toy"/>
+                    <h4>Husk Balls</h4>
+                </div>
+                <div>
+                    <img src="images/product-4.png" width="150" alt="Product photo dental stick"/>
+                    <h4>Dental Sticks</h4>
+                </div>
+                <div>
+                    <img src="images/product-5.png" width="150" alt="Product photo Training Treats"/>
+                    <h4>Training Treats</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="column">
+            <h3>Our Product Comparison Table</h3>
+            <p>
+                Here's a quick look at what makes each of our products unique:
+            </p>
+            <!-- Using a table for the product comparison -->
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Material</th>
+                    <th>Benefits</th>
+                </tr>
+                <tr>
+                    <td>Chew Toys</td>
+                    <td>100% coconut husk</td>
+                    <td>Durable, non-toxic, and great for teething</td>
+                </tr>
+                <tr>
+                    <td>Rope Toys</td>
+                    <td>Coconut fiber</td>
+                    <td>Interactive, eco-friendly, and promotes dental health</td>
+                </tr>
+                <tr>
+                    <td>Balls</td>
+                    <td>Coconut shell</td>
+                    <td>Chewable, natural, and supports mental stimulation</td>
+                </tr>
+                <tr>
+                    <td>Dental Sticks</td>
+                    <td>Coconut meat</td>
+                    <td>Cleans teeth, freshens breath, and aids digestion</td>
+                </tr>
+                <tr>
+                    <td>Training Treats</td>
+                    <td>Coconut oil</td>
+                    <td>Healthy, tasty, and perfect for positive reinforcement</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="gray-background column">
+            <h3>Gift Sets</h3>
+            <!-- Created an ID for this section to show a grid of the gift sets -->
+            <div id="gift-set">
+                <div class="gift">
+                    <img src="images/toy-1.jpg" width="300" alt="Product photo of puppy toy bundle"/>
+                    <h4>Puppy Toy Set</h4>
+                    <p>$29.99</p>  
+                    <a href="#"><button>Add to Cart</button></a>
+                </div>
+                <div class="gift">    
+                    <img src="images/toy-2.jpg" width="300" alt="Product photo of coconut ball toy"/>
+                    <h4>Ball Toy (Set of 4)</h4>
+                    <p>$19.99</p>  
+                    <a href="#"><button>Add to Cart</button></a>
+                </div>
+                <div class="gift">
+                    <img src="images/toy-3.jpg" width="300" alt="Product photo of dental sticks with training treats"/>
+                    <h4>Training Set</h4>
+                    <p>$32.99</p>  
+                    <a href="#"><button>Add to Cart</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="CTA column">
+            <h3>Give your pup the joy of coconut today! 🐾</h3>
+            <a href="products.html"><button>Provide Feedback</button></a>
+        </section>
     </main>
-    <hr>
+
     <footer>
         <p>&copy; 2025 Cocojoy. All rights reserved.</p>
     </footer>

@@ -3,59 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Cocojoy | About</title>
 </head>
 <body>
     <header>
-        <h1>About</h1>
+        <img src="images/cocojoy-logo-nav.png" alt="cocojoy logo horizontal" width="200">
         <nav>    
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a class="selected" href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="products.html">Products</a>
         </nav>
     </header>
     <main>
-        <img src="images/cocojoy.png" width="300" alt="Cocojoy logo"/>
-        <h2>About Cocojoy</h2>
-        <p>
-            At CocoJoy, we believe in natural, sustainable pet care. Our coconut-based treats and toys are designed for happy, healthy dogs—without harming the planet. Because your pup deserves the best!
-        </p>
+        <!-- Using the background color and layout classes -->
+        <section class="gray-background">
+            <div class="hero-copy">
+                <h2>About Cocojoy</h2>
+                <p>
+                    At CocoJoy, we believe in natural, sustainable pet care. Our coconut-based treats and toys are designed for happy, healthy dogs—without harming the planet. Because your pup deserves the best!
+                </p>  
+            </div>  
+            <!-- Using relative path type of source -->
+            <div class="hero-image">
+                <img src="images/cocojoy.png" alt="Cocojoy logo"/>
+            </div>          
+        </section>
 
-        <h2>Our Mission</h2>
-        <p>
-            Our mission is to create high-quality, natural products that promote the health and well-being of pets. We are committed to using sustainable materials and eco-friendly practices to reduce our carbon footprint and protect the planet. 
-        </p>
-        <!-- Using an ordered list for the mission -->
-        <p>
-            We are dedicated to providing:
-        </p>
-        <ol>
-            <li>Eco-friendly, durable toys that are safe for pets.</li>
-            <li>High-quality, natural dog treats made from coconut.</li>
-            <li>Sustainable products that reduce waste and promote a greener planet.</li>
-        </ol>
+        <section class="green-background column">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to create high-quality, natural products that promote the health and well-being of pets. We are committed to using sustainable materials and eco-friendly practices to reduce our carbon footprint and protect the planet. 
+                </p>
+                <h3>We are dedicated to providing:</h3>
+                <!-- Using an ordered list for the mission -->
+                <ol>
+                    <li>Eco-friendly, durable toys that are safe for pets.</li>
+                    <li>High-quality, natural dog treats made from coconut.</li>
+                    <li>Sustainable products that reduce waste and promote a greener planet.</li>
+                </ol>
+        </section>
 
+        <section class="column">
         <h2>Our Values</h2>
         <p>
             At Cocojoy, we value quality, sustainability, and innovation. We believe in creating products that are safe, durable, and enjoyable for pets. We are dedicated to providing exceptional customer service and building lasting relationships with our customers.
         </p>
+        </section>
 
-        <h2>Why Choose CocoJoy?</h2>
-        <p>
-            When you choose Cocojoy, you are choosing quality, sustainability, and innovation. Our products are made with care and attention to detail, using only the best materials and ingredients. We are committed to providing safe, durable, and eco-friendly products that promote the health and well-being of pets. Join us in our mission to create a greener, healthier world for our furry friends!
-        </p>
-        <!-- Using an unordered list for the benefits -->
-        <ul>
-            <li>100% natural ingredients, no artificial additives.</li>
-            <li>Eco-friendly materials that are biodegradable and safe.</li>
-            <li>Vet-approved, dog-loved, and tested for durability.</li>
-            <li>Supporting sustainable farming and ethical sourcing.</li>
-        </ul>
-        <h3>At CocoJoy, we care about your pup and the planet. Join us in making a pawsitive impact! 🐾</h3>
+        <section class="gray-background column">
+            <h2>Why Choose CocoJoy?</h2>
+            <p>
+                When you choose Cocojoy, you are choosing quality, sustainability, and innovation. Our products are made with care and attention to detail, using only the best materials and ingredients. We are committed to providing safe, durable, and eco-friendly products that promote the health and well-being of pets. Join us in our mission to create a greener, healthier world for our furry friends!
+            </p>
+            <!-- Using an unordered list for the benefits -->
+            <ul>
+                <li>100% natural ingredients, no artificial additives.</li>
+                <li>Eco-friendly materials that are biodegradable and safe.</li>
+                <li>Vet-approved, dog-loved, and tested for durability.</li>
+                <li>Supporting sustainable farming and ethical sourcing.</li>
+            </ul>
+            <h3>At CocoJoy, we care about your pup and the planet.</h3>
+        </section>
+
+        <section class="CTA column">
+            <h3>Join us in making a pawsitive impact! 🐾</h3>
+            <a href="contact.html"><button>Provide Feedback</button></a>
+        </section>
     </main>
-    <hr>
-    <footer>
+
+    <footer>    
         <p>&copy; 2025 Cocojoy. All rights reserved.</p>
     </footer>
 </body>
