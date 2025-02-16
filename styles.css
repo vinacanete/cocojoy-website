@@ -177,7 +177,7 @@ section {
 
 .CTA {
     border-style: solid;
-    border-weight: 4px;
+    border-width: 2px;
     border-color: #C7B299;
     padding: 20px;
     text-align: center;
