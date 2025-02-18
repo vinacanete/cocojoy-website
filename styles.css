@@ -189,3 +189,43 @@ footer {
     background-color: #F1E1CF;
     padding: 8px 20px;
 }
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        gap: 20px;
+        height: auto;
+    }
+    .hero-copy {
+        padding: 20px;
+    }
+    .hero-image img {
+        width: 100%;
+    }
+    #gift-set {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #collection-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .column {
+        padding: 20px;
+    }
+    #contact-form {
+        padding: 20px;
+    }
+    .CTA {
+        padding: 20px;
+        margin: 40px;
+    }
+}
